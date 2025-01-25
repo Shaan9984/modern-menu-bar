@@ -1,0 +1,168 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif,arial,Verdana;
+	font-size: 14.5px;
+	/*background: url('C:/Users/shaan/Downloads/Images/4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+ul li
+{
+	list-style-type: none;
+}
+#container
+{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 0; 
+}
+#wrapper
+{
+	width: 95%;
+	margin: 0px auto;
+}
+h3
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0;
+	padding: 0px 0px 12px 0px;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+li.pad
+{
+	float: left;
+}
+#holder 
+{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+}
+#holder li
+{
+	color: #838080;
+	text-decoration: none;
+	transition: 0.1s;
+}
+a
+{
+	color: #838080;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+}
+.pad a
+{
+	padding: 18px 17px 22px 17px;
+}
+#holder ul
+{
+	width: 100%;
+}
+#holder ul li span
+{
+	padding: 7px 0px;	
+}
+.pad > a:hover, 
+.using > li:hover >a
+{
+	background: #262626;
+}
+#software ul li a:hover span
+{
+	transition: 0.1s;
+}
+#t-d ul li a:hover span ,
+.using > li:hover > a > span
+{
+	border-bottom: 2px solid #ff6e00;
+	transition: 0.1s;
+}
+#vfx ul li a:hover span, 
+#vfx .using > li:hover > a > span
+{
+	border-bottom: 2px solid #6159cc;
+	transition: 0.1s;
+}
+.sub-wrapper-vfx
+{
+	border-bottom: 5px solid #6159cc;
+}
+.sub-wrapper-vfx a:hover
+{
+	color: #6159cc;
+	transition: 0.3s;
+}
+.sub-wrapper-vfx
+{
+	width: 100%;
+	height: auto;
+	background: #262626;
+	position: absolute;
+	left: 0;
+	padding: 40px 0px;
+}
+#holder ul li > ul 
+{
+	position: absolute;
+	left: -9000px;
+}
+#holder ul li:hover ul
+{
+	left: 0;
+}
+.sub-con
+{
+	width: 80%;
+	margin: 0px auto;
+}
+.sub-l
+{
+	float: left;
+	width: 200px;
+}
+.sub-hol a:hover
+{
+	border-bottom: 2px solid #3d8080;
+	transition: 0.3s;
+}
+.sub-hol ul li a
+{
+	padding: 8px 0px 8px 0px;
+	font-size: 13px;
+	transition: 0.3s;
+}
+.sub-m
+{
+	padding-left: 5px;
+	float: left;
+	border-left: 1px solid #4d4d4d; 
+	border-right: 1px solid #4d4d4d;
+	padding-right:80px; 
+}
+.sub-in-l
+{
+	float: left;
+	width: 100px;
+}
+.sub-in-r
+{
+	float: right;
+	width: 100px;
+	padding-left: 10px;
+}
+.sub-r
+{
+	float: right;
+	padding-left: 15px;
+}
+
